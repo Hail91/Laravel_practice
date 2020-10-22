@@ -16,15 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'App\Http\Controllers\AppController@index');
 // Route to tracks page
 Route::get('/tracks', function () {
-    return view('welcome');
+    return view('tracks');
 });
 // Route to community page
 Route::get('/community', function () {
-    return view('welcome');
+    return view('community');
 });
 // Route to support page
 Route::get('/support', function () {
-    return view('welcome');
+    return view('support');
 });
 
 // Example routes to demonstrate closures in PHP/Laravel
